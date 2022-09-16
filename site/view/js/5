@@ -1,0 +1,10 @@
+"view/img/slide/default.jpg"
+"view/img/slide/slide1.jpg"
+{"top": "15%", "right":"10%", "width":"45%", "left":""}
+{"top": "20%", "right":"", "width":"40%", "left":"10%"}
+
+{"txt":"Lorem h1", "color":"#333" }
+{"txt":"Lorem h2", "color":"#777" }
+{"txt":"Lorem h3", "color":"#888" }
+
+<button class="btn btn-default back_color text-uppercase">Lorem</button>Lorem <span class="fa fa-chevron-right"></span>

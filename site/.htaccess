@@ -1,0 +1,10 @@
+#directorios ocultos
+ 
+ Options All -Indexes
+
+ # whiteurl
+
+ RewriteEngine On
+
+RewriteRule ^([-a-zA-Z0-9ñÑ_/]+)$ index.php?url=$1
+

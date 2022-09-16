@@ -1,0 +1,436 @@
+/*=============================================
+TOP
+=============================================*/
+header div{
+	padding-right: 2px !important;
+	margin-bottom: 1px;
+}
+#div_top ul{
+	padding-top:8px;
+
+}
+#ulr{
+	margin-right: -67px;	
+}
+
+#div_top ul li{
+	display:inline;
+	line-height:30px;
+	margin:0px 5px;
+	color:white;
+}
+
+.social ul li a i{
+	font-size:18px;
+	margin:0 1px;
+}
+
+.register ul{
+	text-align: right;
+	font-size:12px;
+}
+.log_color{
+	color: white;
+}
+
+/*=============================================
+HEADER
+==================margin: 0px 0px 5px 5%;===========================*/
+
+header #div_btncategories{
+	
+    padding: 7px 14px;
+        height: 58px;
+}
+
+
+
+header #div_btncategories p{
+	line-height:40px;
+	margin-bottom:0px;
+	margin-right: 15px;
+}
+
+header #div_btncategories p span{
+	cursor: pointer;
+
+}
+
+
+
+header #div_search input {
+
+    height: 58px;
+
+margin-left: -9px;
+
+}
+
+header #div_search button{
+    /* padding: 7px; */
+    width: 40px;
+    height: 58px;
+    border: 2px solid silver;
+    border-radius: 0;
+
+}
+
+header #div_cart{
+	padding: 3px;
+    width: 70%;
+    height: 58px;
+    padding-left: 0px;
+    /* padding: 0px 0px 0px 0px; */
+    border: 1px solid #aaa;
+    font-size: 12px;
+       
+}
+
+header #div_cart ul{
+margin-top: -3px;
+}
+    
+
+header #div_cart button{
+
+    padding: 16px 17px;
+    margin-left: -4px;
+    margin-top: -1px;
+    border: 1px solid silver;
+    border-radius: 0;
+    height: 58px;
+
+}
+
+header #div_cart  {
+    padding: 3px;
+    width: 70%;
+        height: 58px;
+    /* padding-left: 66px; */
+    border: 1px solid #aaa;
+    font-size: 12px;
+}
+
+header #div_categories{
+	display:none;
+	margin-top:-10px;
+	position: relative;
+	padding-bottom:20px;
+}
+
+header #div_categories h4{
+	margin-top:20px;
+	margin-bottom:-10px;
+}
+
+header #div_categories hr{
+	border:1px solid rgba(255,255,255,.3);
+}
+header #div_cart ul li{
+	display: inline-block;
+}
+
+#div_header{
+	margin-top: 2px;
+}
+.md_title{
+	padding: 5px 0px;
+
+}
+.md_title h3{
+	text-align: center;
+	margin-top: -5px;
+	color: white;
+	padding: 15px 0px;
+	border-radius: 5px 5px 0px 0px;
+	
+}
+.mdform .close{
+	position: absolute;
+	right: 27px;
+	top:15px;
+	color: white;
+}
+.mdform .facebook, .mdform .google{
+	cursor: pointer;
+}
+.mdform .facebook p{
+	background: #4267B2;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	padding: 8px;
+	font-size: 16px;
+	margin-right: -12px;
+	margin-top: 10px;
+	margin-bottom: 20px;}
+.mdform .google p{
+	background: #d6513e;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	padding: 8px;
+	font-size: 16px;
+	margin-left: -12px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+.mdform p i{
+    margin-left: -6px;
+    margin-right: 13px;
+    font-size: 18px;
+
+}
+
+.mdform .irl{
+    color: black;
+    width: 33px;
+    background: #bfbcbc;
+    
+    border-radius: 5px 0 0 5px;
+    padding: 8px 0px 0px 9px;
+}
+.mdform .irr{
+ width: 33px;
+    background: #bfbcbc;
+    	color: black;
+    
+    border-radius: 0px 5px 5px 0px;
+    padding: 9px 0px 0px 9px;
+}
+
+ .mdform span.irr i,   .irl i, {
+ 
+    	color: black;
+ 
+}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+	header #logo img{
+	height: 58px;
+ 	
+	padding-left:0px;
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img{
+		
+    height: 58px;
+
+		padding-left:0px;
+	}
+
+	  #logo{
+margin-right: 4px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	/*=========Extra small (<576px)
+		Small (>=576px)
+			Medium (>=768px)
+				Large (>=992px)
+					Extra Large (>=1200px).====================================
+	HEADER
+	=============================================*/
+
+	header #logo img{
+		    height: 93%;
+	}
+
+	header #div_cart{
+		
+	}
+
+	header #div_cart p{
+		display:none;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================margin-left: 20px;margin-right: 20px;*/
+
+@media (max-width:767px){
+.mdform .google p{
+
+	
+    margin-top: -14px;
+	
+}
+#div_top ul{
+	padding-top:8px;
+	 
+}
+#ulr{
+	margin-right: 0px;	
+}
+	
+	/*=============================================
+	TOP
+	=============================================*/
+.mdform .facebook p, .mdform .google p{
+
+	margin-right: 0px;/**/
+
+	    margin-left: 0px;
+}
+	#div_top ul{
+		text-align: center;
+	}
+
+	#div_top #register{
+		border-top:1px solid #222;
+	}
+
+
+
+@media (max-width: 575px) and (min-width:200px){
+
+header #div_btncategories {
+    margin: 0px 0px 5px 0px;
+}
+header #div_search input {
+    padding: 22px 4px 7px 11px;
+    /* margin: 2px; */
+    height: 57px;
+}
+
+	#div_top ul{
+		text-align: center;
+	}
+
+	#div_top #register{
+		border-top:1px solid #222;
+	}
+	 
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img{
+		padding:30px;
+		padding-bottom:10px;
+	}
+
+	header #div_categories{
+		margin-bottom:10px;
+	}
+
+	header #div_search{ 
+	}
+
+	header #div_cart{
+		margin:0px;
+	}
+	#igs{
+		  margin-bottom: 4px;
+	}
+	header #logo img {
+    padding: 1px 0 0 0;
+    padding-bottom: 10px;
+    width: 100%;
+}
+	
+}
+@media (max-width: 767px) and (min-width:576px){
+
+header #div_cart p {
+ 
+    width: 90%;
+}
+header #div_btncategories {
+    margin: 0px 0px 5px 0px;
+}
+header #div_search input {
+    padding: 22px 4px 7px 11px;
+    /* margin: 2px; */
+        margin-left: -16px;
+
+    height: 57px;
+}
+
+	#div_top ul{
+		text-align: center;
+	}
+
+	#div_top #register{
+		border-top:1px solid #222;
+	}
+	#cis {
+    max-width: 100%;
+}
+	 
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img{
+
+	}
+
+	header #div_categories{
+		margin-bottom:10px;
+	}
+
+	header #div_search{ 
+	}
+
+	header #div_cart{
+		margin:0px;
+	}
+	#igs{
+		  margin-bottom: 4px;
+	}
+	header #logo img {
+    padding: 1px 0 0 0;
+
+    width: 100%;
+        height: 93%;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

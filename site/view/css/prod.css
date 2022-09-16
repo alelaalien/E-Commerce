@@ -1,0 +1,132 @@
+.banner{
+	position: relative;
+	overflow:hidden;
+}
+
+.banner .banner_txt{
+	position:absolute;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.banner .r_txt{
+	top:50px; 
+	right:50px; 
+	text-align:right;
+}
+.banner .l_txt{
+	top:50px; 
+	left:50px; 
+	text-align:left;
+}
+.banner .c_txt{
+	top:50px; 
+	left:50%;
+	width:800px; 
+	margin-left: -400px;
+	text-align:center;
+}
+
+.banner_txt h1{
+	font-size:35px;
+	line-height:25px;
+}
+
+.banner_txt h2{
+	font-size:30px;
+	line-height:25px;
+}
+
+.banner_txt h3{
+	font-size:24px;
+	line-height:25px;
+}
+.product_bar{
+	    margin-bottom: 5px;
+}
+.product_bar .organize_p span{
+	margin-left:5px;
+}
+.featured_title h1{
+	margin-top:-5px;
+}
+
+.featured_title button span{
+	margin-left:5px;
+}
+.div_p ul li figure{
+	overflow:hidden;
+}
+
+.div_p ul li a img:hover{
+	transition: .3s all ease;
+	opacity:.8;
+	transform: scale(1.1,1.1);
+}
+
+
+.div_p ul li h4 small{
+	color:#777;
+	text-transform: uppercase;
+	font-size:12px;
+	font-weight: 700;
+}
+
+.div_p ul li h4 small a{
+	color:#777;
+}
+
+.div_p ul li div.price{
+	padding:0;
+	margin-top:-30px;
+	/*padding-bottom:20px;*/
+}
+
+.div_p ul li div.links{
+	padding:0;
+	padding-bottom:20px;
+}
+
+.div_p ul li div.links button{
+	margin:2px;
+}
+
+.div_p ul li div.links button i{
+	color:#999;
+	font-size:12px;
+}
+.div_p ul li h1{
+	margin-top:-10px;
+}
+
+.div_p ul li h1 small{
+	text-transform: uppercase;
+	font-size:20px;
+	font-weight: 700;
+}
+
+.div_p ul li h1 small a{
+	color:#777;
+}
+
+.offer{
+	 text-decoration:line-through;
+	 color:#ccc;
+	 font-size:15px;
+}
+
+.fontSize{
+	font-size:11px;
+}
+.position-absolute {
+  position: relative;
+  width: 85%;
+}
+.position-absolute__content {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.div_p #breadcrumb_ul li{
+	    margin-right: 10px;
+}

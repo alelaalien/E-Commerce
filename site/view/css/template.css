@@ -1,0 +1,198 @@
+/* global */
+*{
+	margin: 0px;
+	padding: 0px; 
+	text-decoration: none;  
+	font-family: 'Nuosu SIL', serif ;
+}
+ 
+h1{
+	font-family: 'Nuosu SIL', serif !important;
+}
+ul, ol{
+	padding: 0;
+	list-style: none; 
+}
+a:visited, a:link, a:focus, a:hover, a:active{
+	list-style: none;
+	text-decoration: none;
+}
+.top_bar{
+	background: black;
+}
+.top_bar{
+	color: white;
+}
+.back_color, .back_color a{
+	background: #47bac1;
+	color:white;
+}
+#top_bar ul li{
+	display:inline;
+	line-height:30px;
+	margin:0px 5px;
+	color:white;
+}
+#top_bar ul{
+	padding-top:8px;
+}
+
+.h4cattitles{
+	line-height: 2;
+}
+.fb_white{
+	color:white;
+}
+
+.fb_black{
+	color:black;
+}
+
+.fb_color{
+	color:white;
+	background:#46639f;
+}
+
+/*yout_*/
+
+.yout_Color{
+	color:white;
+	background:#d6513e;
+}
+
+.yout_white{
+	color:white;
+}
+
+.yout_black{
+	color:black;
+}
+
+/*TWIT_*/
+
+.twit_color{
+	color:white;
+	background:#0ab2e6;
+}
+
+.twit_white{
+	color:white;
+}
+
+.twit_black{
+	color:black;
+}
+
+/*inst_*/
+
+.inst_color{
+	color:white;
+	background:linear-gradient(45deg, #fca925, #ee1d5f,  #6350a2);
+
+}
+
+.inst_white{
+	color:white;
+}
+
+.inst_black{
+	color:black;
+}
+
+ .sm_white{
+ 	color: white;
+ }
+ 
+
+.error404{
+	color:#333;
+}
+
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.col-lg-0{
+		display: none;
+	}
+
+	.error404 h1,.verification h1 {
+		font-size:300px;
+		text-shadow:8px 8px 1px #dadada;
+	}
+	.verification h3 {
+		font-size:100px;
+		text-shadow:8px 8px 1px #dadada;
+		margin-top: 30px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.col-md-0{
+		display: none;
+	}
+
+	.error404 h1, .verification h1{
+		font-size:200px;
+		text-shadow:6px 6px 1px #dadada;
+	}
+		.verification h3 {
+		font-size:70px;
+		text-shadow:8px 8px 1px #dadada;
+		margin-top: 30px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	.col-sm-0{
+		display: none;
+	}
+
+	.error404 h1, .verification h1{
+		font-size:150px;
+		text-shadow:4px 4px 1px #dadada;
+	}
+		.verification h3 {
+		font-size:50px;
+		text-shadow:8px 8px 1px #dadada;
+		margin-top: 30px;
+	}
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	.col-xs-0{
+		display: none;
+	}
+
+	.error404 h1, .verification h1{
+		font-size:80px;
+		text-shadow:2px 2px 1px #dadada;
+	}
+	.verification h3 {
+		font-size:25px;
+		text-shadow:8px 8px 1px #dadada;
+		margin-top: 30px;
+	}
+
+}
