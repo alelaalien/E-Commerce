@@ -82,17 +82,13 @@ class Functions{
 			  // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
 			    $mail->isSMTP();                                            //Send using SMTP
 			    $mail->Host       = 'smtp.office365.com';                     //Set the SMTP server to send through
-			    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-			    $mail->Username   = 'mtest_alez@hotmail.com';                     //SMTP username
-			    $mail->Password   = '34421752az';                               //SMTP password
+			    $mail->SMTPAuth   = true;                                          //SMTP password
 			    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS ;   
 			           //Enable implicit TLS encryptionENCRYPTION_SMTPS; 
 			    $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-			    //Recipients
-			    $mail->setFrom('mtest_alez@hotmail.com', 'Ale');
-			    $mail->addAddress($addrees, $nameto);     //Add a recipient
-			             //Name is optionalalelaalien@outlook.com
+			    //Recipients 
+			    $mail->addAddress($addrees, $nameto);     //Add a recipient 
 			   // $mail->addReplyTo('info@example.com', 'Information');
 
 			/*
